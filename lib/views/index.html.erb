@@ -3,17 +3,23 @@
   <head>
     <title>Codebreaker</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="scripts/app.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    
   </head>
   <body>
     <div id="container">
-      <h1>We can load HTML! Wow!</h1>
+      <h1>Codebreaker</h1>
     </div>
+    <div id="show"></div>
 	<form id="guess" action="/guess" method="get">
 		<input type="number" name="guess" value="" placeholder="">
     <input type="submit" value="Submit guess">
 	</form>
-	
+  <div id="table">
+    
+  </div>
+  <button id="newgame">New game</button>
+  <button id="highscore">Highscore</button>
   </body>
 </html>
