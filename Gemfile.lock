@@ -22,5 +22,5 @@ DEPENDENCIES
   bundler (~> 1.9)
   codebreaker!
   codebreaker_racked!
-  rack (~> 1.6.1)
+  rack
   rake (~> 10.0)
