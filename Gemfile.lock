@@ -1,0 +1,24 @@
+GIT
+  remote: https://github.com/alexkorich/codebreaker.git
+  revision: 31f6435b289d06fb5a32cb9f61b2a100b3b20394
+  specs:
+    codebreaker (0.1.0)
+
+PATH
+  remote: .
+  specs:
+    codebreaker_racked (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.9)
+  codebreaker!
+  codebreaker_racked!
+  rake (~> 10.0)
