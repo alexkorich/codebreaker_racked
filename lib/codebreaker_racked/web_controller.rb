@@ -18,6 +18,7 @@ module CodebreakerRacked
 
                   puts(@request.params)
                   # Rack::Response.new("11111", 200)
+                  puts game
                   Rack::Response.new(game.submit_guess(@request.params["guess"]), 200)
             else 
               new_game
@@ -46,7 +47,7 @@ module CodebreakerRacked
       @request.session.clear
       @request.session[:game]= Codebreaker::Game.new
       
-      puts @game.submit_guess(1111)
+      puts @game
     end
 
 

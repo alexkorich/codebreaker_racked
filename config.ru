@@ -2,7 +2,7 @@ require 'rack'
 require 'rubygems'
 require 'bundler'
 
-use Rack::Static, :urls => ["lib/stylesheets", "lib/scripts"]
+use Rack::Static, :urls => ["/lib/stylesheets/", "/lib/scripts/"]
 use Rack::Session::Cookie, :key => 'rack.session',
                            :path => '/',
                            :expire_after => 2592000,
