@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Codebreaker</title>
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="lib/stylesheets/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="lib/scripts/app.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div id="container" class="center">
+        <h1>Codebreaker</h1>
+    </div>
+    <div id="ttt" class="center">
+        
     
-  </head>
-  <body>
-    <div id="container">
-      <h1>Codebreaker</h1>
-    </div>
-    <div id="show">
-    	
-    </div>
-    <div id="screen">
-    	<span id="0">_</span>
-		<span id="1">_</span>
-		<span id="2">_</span>
-		<span id="3">_</span>
+    <table class="table table-striped center">
+                <thead>
+                    <tr>
+                        <th>Attempt #</th>
+                        <th>Guess</th>
+                        <th>Respond</th>
+                    </tr>
+                </thead>
+
+ </table>
+    <div id="tabler">
+
+        <table class="table table-striped center">
+            
+            <tbody>
+                
+            </tbody>
+
+
+        </table>
     </div>
 
-	
-  <div id="table">
-    
-  </div>
-  <div id="buttons">
-  	<button class="number" type="">1</button>
-  	<button class="number" type="">2</button>
-  	<button class="number" type="">3</button>
-  	<button class="number" type="">4</button>
-  	<button class="number" type="">5</button>
-  	<button class="number" type="">6</button>
-  	<button id="delete" type="">del</button>
-  </div>
-  <button id="newgame">New game</button>
-  <button id="highscore">Highscore</button>
-  </body>
+    </div>
+    <div id="show" class="center"></div>
+    <div id="att" class="center">Attempts:<span id="attempts"></span></div>
+    <div id="screen" class="center">
+        <span id="0" class="numnum">_</span>
+        <span id="1" class="numnum">_</span>
+        <span id="2" class="numnum">_</span>
+        <span id="3" class="numnum">_</span>
+    </div>
+    <div id="buttons" class="center">
+        <button class="number btn btn-info" type="">1</button>
+        <button class="number btn btn-info" type="">2</button>
+        <button class="number btn btn-info" type="">3</button>
+        <button class="number btn btn-info" type="">4</button>
+        <button class="number btn btn-info" type="">5</button>
+        <button class="number btn btn-info" type="">6</button>
+        <button id="delete"  class="btn btn-warning" type="">del</button>
+    </div>
+    <div class="center" >
+          <button id="newgame" class="btn btn-success">New game</button>
+    <button id="highscore" class="btn btn-success">Highscore</button>
+    <button id="highscore" class="btn btn-success">Help</button>
+    </div>
+  
+</body>
 </html>

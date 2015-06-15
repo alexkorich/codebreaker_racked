@@ -1,1 +1,23 @@
-.numbers{width:20px;height:20px;}
+#tabler {
+    overflow:scroll;
+    height:100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: none;
+
+}
+th tr {border:1px black solid;}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  
+}
+#show #att #attempts{
+	font-size: 24px
+}
+.numnum{
+font-size: 24px
+}
+/*body{background-image: url(1.png);background-repeat: no-repeat}*/
