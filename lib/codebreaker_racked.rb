@@ -1,5 +1,5 @@
-require "codebreaker_racked/version"
-require "codebreaker_racked/web_controller"
+require_relative "codebreaker_racked/version"
+require_relative  "codebreaker_racked/web_controller"
 require "codebreaker"
 require "erb"
 require "json"
